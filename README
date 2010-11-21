@@ -1,0 +1,11 @@
+SNAKE
+This is a networked snake game.  Two computers can play against each other.  The object is to eat as much food as possible without dying.  Each food is a positive point, each death a negative point.
+
+INSTALLING
+There are two makefiles, one for the client, the other for the server.   Requires the Enet library.  Google enet and it's the first hit.  The client is built for Mac OS X.  Have to change the makefile for different systems.
+
+PLAYING
+First someone lanches the server.  When you fire up the client you have to enter the servers IP address to connect to the game.  Then you are set.  
+
+NOTES
+This is a rough draft and not a polished experience.  This is my first appemt to make a networked game.  As I learn more I will polish up these files.  There is a single player version in the folder single.  There you play against some AI.  Have fun!
